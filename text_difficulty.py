@@ -106,7 +106,6 @@ def is_chinese(text):
     return True if chinese_p.fullmatch(text) else False
 
 # %%
-
 def difficulty_text(text):
     """统计文本难度
 
